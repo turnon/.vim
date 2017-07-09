@@ -4,9 +4,13 @@
 if executable("ag")
   let g:ackprg = 'ag --nogroup --nocolor --column'
   noremap FF :Ack<SPACE>
+  cnoreabbrev Ack Ack!
+  nnoremap <Leader>a :Ack!<Space>
 else
   if executable("ack")
     noremap FF :Ack<SPACE>
+    cnoreabbrev Ack Ack!
+    nnoremap <Leader>a :Ack!<Space>
   else
     noremap FF :echo "you need to install ACK or AG first!"<CR>
   endif
