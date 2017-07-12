@@ -1,3 +1,9 @@
+## Mod
+
+Just base on <a href="https://github.com/kaochenlong/eddie-vim2">eddie-vim2</a>
+
+To install: `sh <(curl -L https://github.com/turnon/.vim/raw/master/utils/install.sh)`
+
 ## Intro
 
 I'm currently a Ruby/Rails/iOS app developer and instructor, this is my personal Vim configurations and some plugins which I used in my daily job, and I removed and reorganized redundant settings and plugins from my another vim repository https://github.com/kaochenlong/eddie-vim
