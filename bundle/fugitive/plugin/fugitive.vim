@@ -2937,3 +2937,6 @@ augroup fugitive_foldtext
         \    set foldtext=fugitive#foldtext() |
         \ endif
 augroup END
+
+autocmd FilterWritePre * if &diff | setlocal syntax= | endif
+autocmd QuitPre * syntax on | AirlineRefresh
