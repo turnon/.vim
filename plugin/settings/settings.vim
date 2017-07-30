@@ -42,7 +42,7 @@ set incsearch                         " incremental search
 syntax enable
 set t_Co=256
 try
-  colorscheme flatcolor
+  colorscheme jellybeans
 catch
 endtry
 
