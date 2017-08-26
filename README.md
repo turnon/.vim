@@ -2,7 +2,7 @@
 
 Just base on <a href="https://github.com/kaochenlong/eddie-vim2">eddie-vim2</a>
 
-To install: `sh <(curl -L https://github.com/turnon/.vim/raw/master/utils/install.sh)`
+To install, follow the "manual installation", but change url to `https://github.com/turnon/.vim.git`
 
 ## Intro
 
