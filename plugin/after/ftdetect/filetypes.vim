@@ -18,3 +18,5 @@ autocmd! BufNewFile,BufRead *.zsh-theme set filetype=zsh
 
 " CocoaPods
 autocmd! BufNewFile,BufRead Podfile,*.podspec set filetype=ruby
+
+autocmd! BufNewFile,BufRead *.ex set filetype=elixir
