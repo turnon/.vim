@@ -106,3 +106,4 @@ nnoremap <Leader>9 :9b<CR>
 nnoremap <Leader>0 :10b<CR>
 nnoremap <Leader>l :!git log -L :<cword>:%<CR>
 nnoremap <Leader>f :!git log --stat -p %<CR>
+nnoremap <Leader>h :Ack! 'def <cword>'<CR>
