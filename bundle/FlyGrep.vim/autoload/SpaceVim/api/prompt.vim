@@ -109,7 +109,7 @@ func! s:self._handle_input(...) abort
       let self._prompt.cursor = ''
       let self._prompt.end = ''
       call self._build_prompt()
-    elseif char ==# "\<bs>"
+    elseif char ==# "\<bs>" || char ==# "\<C-b>"
       let self._prompt.begin = substitute(self._prompt.begin,'.$','','g')
       call self._build_prompt()
     elseif char == self._keys.close
