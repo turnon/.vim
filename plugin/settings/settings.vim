@@ -9,7 +9,7 @@ set linebreak
 set nolist
 set hidden
 set linespace=0
-set cursorline
+set nocursorline
 set nofoldenable
 set number
 set numberwidth=4
@@ -27,7 +27,7 @@ set showtabline=2                     " always show tab
 set wildmode=longest,list             " use emacs-style tab completion when selecting files, etc
 set wildmenu                          " make tab completion for files/buffers act like bash
 set key=			                        " disable encryption
-set synmaxcol=128
+set synmaxcol=256
 set viminfo=			                    " disable .viminfo file
 set ttyfast                           " send more chars while redrawing
 set lazyredraw
@@ -84,8 +84,8 @@ set wildignore+=log/**
 set wildignore+=tmp/**
 
 " cursorline switched while focus is switched to another split window
-autocmd WinEnter * setlocal cursorline
-autocmd WinLeave * setlocal nocursorline
+" autocmd WinEnter * setlocal cursorline
+" autocmd WinLeave * setlocal nocursorline
 
 " remove tailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
